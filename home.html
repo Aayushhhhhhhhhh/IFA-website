@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+    <title>HOME</title>
+    <style>
+        :root {
+  --primary-color: #f1faff;
+  --text-dark: #030712;
+  --text-light: #6b7280;
+  --extra-light: #fbfbfb;
+  --white: #ffffff;
+ --color: #f2f2f2;
+ --colorr:#e9f0f7;
+ --colorrr:#bad7f5;
+  --max-width: 1200px;
+}
+        header {
+  margin-top: 8rem;
+  /* background-color: var(--primary-color); */
+  background-color: var(--colorrr);
+  font-family: "Bona Nova SC", serif;
+}
+
+.header_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.header_content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.header_content h1 {
+  font-size: 3rem;
+  font-weight: 400;
+
+}
+
+.header_content .button {
+  background-color: var(--text-dark);
+  color: var(--white);
+  font-size: 1rem;
+  padding: 0.4rem;
+  cursor: pointer;
+
+}
+
+.header_image {
+  position: relative;
+}
+
+.header_image img {
+  max-width: 400px;
+  position: absolute;
+  bottom: -5rem;
+}
+.shop_area {
+  margin-top: 3rem;
+  text-align: center;
+  font-family: "Bona Nova SC", serif;
+}
+
+nav .shop_nav  {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+
+}
+
+.shop_nav a{
+ background-color: #f2f2f2;
+ font-weight: 600;
+ list-style: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.shop_nav a {
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.shop_nav a:hover {
+  color: var(--text-dark);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="section__container header_container">
+          <div class="header_content">
+            <p>Get Extra 20% off upto Augest </p>
+            <h1>Discover & Enjoy<br />
+              The discount </h1>
+            <button class="button">SHOP NOW</button>
+          </div>
+          <div class="header_image">
+            <img src="aayushwhite.png" alt="header" width="350px">
+          </div>
+        </div>
+      </header>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+    <title>Shop</title>
+
+    <style>
+        :root {
+  --primary-color: #f1faff;
+  --text-dark: #030712;
+  --text-light: #6b7280;
+  --extra-light: #fbfbfb;
+  --white: #ffffff;
+ --color: #f2f2f2;
+ --colorr:#e9f0f7;
+ --colorrr:#bad7f5;
+  --max-width: 1200px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  gap: 10px;
+  row-gap: 15px;
+  column-gap: 15px;
+  font-family: "Bona Nova SC", serif;
+
+}
+.container img {
+  width: 60%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+.container img:hover {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+.card {
+  /* display: block; */
+  width: 60%;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  color: #ff0000;
+  background-color: #f8f8f8;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+.card:hover {
+  background-color: #65ed4e;
+  color: #f6dcdc;
+}
+
+
+
+.box1 .card {
+  cursor: pointer;
+  color: #ff0000;
+  transition: 0.3s;
+}
+
+
+
+.box2 .card {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+
+
+.box3 .card {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.box4 .card {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.box5 .card {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.box6 .card {
+  color: #ff0000;
+  cursor: pointer;
+}
+.shop_area {
+  margin-top: 3rem;
+  text-align: center;
+  font-family: "Bona Nova SC", serif;
+}
+
+nav .shop_nav  {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+
+}
+
+.shop_nav a{
+ background-color: #f2f2f2;
+ font-weight: 600;
+ list-style: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.shop_nav a {
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-light);
+  transition: 0.3s;
+}
+
+.shop_nav a:hover {
+  color: var(--text-dark);
+}
+    </style>
+</head>
+<body>
+    <div class="shop_area">
+        <h2>Welcome to Shop Area</h2>
+      </div>
+      <nav class="shop">
+        <ul class="shop_nav">
+          <li> <a href="#">Male</a></li>
+          <li><a href="#">Female</a></li>
+        </ul>
+      </nav>
+    <section class="shop_container">
+        <div class="container">
+          <div class="box1"><img src="aayushblack.png" alt="" width="200px">
+            <br>
+            <h4>Medium Size <br>Black <br>At 999</h4>
+            <button class="card">Add to Card</button>
+          </div>
+    
+          <div class="box2"><img src="aauwhite.png" alt="" width="200px">
+            <br>
+            <h4>Medium Size <br>White <br>At 999</h4>
+            <button class="card">Add to Card</button>
+          </div>
+    
+          <div class="box3"><img src="anilbrown.png" alt="" width="200px">
+            <br>
+            <h4>Medium Size <br>Gray <br>At 999</h4>
+            <button class="card">Add to Card</button>
+          </div>
+    
+          <div class="box4"><img src="aakblack.png" alt="" width="250px">
+            <br>
+            <h4>Large Size <br>Black <br>At 999</h4>
+            <button class="card">Add to Card</button>
+          </div>
+    
+          <div class="box5"><img src="aayushwhite.png" alt="" width="210px">
+            <br>
+            <h4>Large Size <br>White <br>At 999</h4>
+            <button class="card">Add to Card</button>
+          </div>
+    
+    
+          <div class="box6"><img src="aayushbrown.png" alt="" width="250px">
+            <br>
+            <h4>Large Size <br>Gray <br>At 999</h4>
+            <button class="card">Add to Card</button>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
